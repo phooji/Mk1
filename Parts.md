@@ -186,12 +186,12 @@ There's a couple of reasons for this:
 2) The switching regulator ought to be much more efficient than the linear regulator
    in the Arduino.
 
-                        (+)[converter in][converter out](+)
-                         |                               |
-[battery](+)--[switch]--(+)[motor shield]               (5V)[Arduino]
-         (-)------------(-)**remove jumper**            (Gnd)                  
-                         |                               |    
-                        (-)[converter in][converter out](-)
+                            (+)[converter in][converter out](+)
+                             |                               |
+    [battery](+)--[switch]--(+)[motor shield]               (5V)[Arduino]
+             (-)------------(-)**remove jumper**            (Gnd)                  
+                             |                               |    
+                            (-)[converter in][converter out](-)
 
 ### Bluetooth
 
